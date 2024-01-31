@@ -5,6 +5,7 @@ Developed based on java mail mail service small framework , quickly implanted in
 How to use in my springboot application?
 Here's a basic smtp mailer use case.
 
+```java
 @Component
 public class SmtpMailSender {
 
@@ -47,3 +48,4 @@ public class SmtpMailSender {
     }
 
 }
+```
